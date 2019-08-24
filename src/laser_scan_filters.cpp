@@ -58,5 +58,5 @@ PLUGINLIB_EXPORT_CLASS(laser_filters::InterpolationFilter, filters::FilterBase<s
 PLUGINLIB_EXPORT_CLASS(laser_filters::LaserScanBoxFilter, filters::FilterBase<sensor_msgs::LaserScan>)
 PLUGINLIB_EXPORT_CLASS(laser_filters::LaserScanMaskFilter, filters::FilterBase<sensor_msgs::LaserScan>)
 PLUGINLIB_EXPORT_CLASS(laser_filters::ScanBlobFilter, filters::FilterBase<sensor_msgs::LaserScan>)
-PLUGINLIB_EXPORT_CLASS(laser_filters::LaserScanRangeFilter, filters::FilterBase<sensor_msgs::LaserScan>)
+PLUGINLIB_EXPORT_CLASS(laser_filters::LaserScanRotationFilter, filters::FilterBase<sensor_msgs::LaserScan>)
 
