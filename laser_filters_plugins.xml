@@ -73,6 +73,12 @@
         This is a filter which extract blob object (human's foot, chair's foot) from a laser.
       </description>
     </class>
+    <class name="laser_filters/LaserScanRotationFilter" type="laser_filters::LaserScanRotationFilter"
+           base_class_type="filters::FilterBase<sensor_msgs::LaserScan>">
+      <description>
+          This is a filter which rotates the ranges and intensities array by a given index.
+      </description>
+    </class>
   </library>
   <library path="lib/libpointcloud_filters">
     <class name="laser_filters/PointCloudFootprintFilter" type="laser_filters::PointCloudFootprintFilter" 
